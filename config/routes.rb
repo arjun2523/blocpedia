@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'edit/show'
+
+  get 'edit/add'
+
   get 'welcome/index'
 
   get 'welcome/about'
