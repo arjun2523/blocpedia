@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :wikis
+
   get 'edit/show'
 
   get 'edit/add'
